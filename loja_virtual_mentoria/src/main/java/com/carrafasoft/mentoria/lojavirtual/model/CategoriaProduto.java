@@ -1,5 +1,6 @@
 package com.carrafasoft.mentoria.lojavirtual.model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import java.io.Serializable;
 
 @Getter
 @Setter
+@EqualsAndHashCode
 @Entity
 @Table(name = "categoria_produto")
 public class CategoriaProduto implements Serializable {
