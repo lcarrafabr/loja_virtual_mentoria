@@ -25,6 +25,26 @@ public class Usuario implements UserDetails {
     @Temporal(TemporalType.DATE)
     private Date dataAtualSenha;
 
+
+//    @ManyToMany(fetch = FetchType.LAZY)
+//    @JoinTable(
+//            name = "usuarios_acesso",
+//            uniqueConstraints = @UniqueConstraint(
+//                    columnNames = {"usuario_id", "acesso_id"},
+//                    name = "unique_acesso_user"
+//            ),
+//            joinColumns = @JoinColumn(
+//                    name = "usuario_id",
+//                    referencedColumnName = "id",
+//                    foreignKey = @ForeignKey(name = "usuario_fk")
+//            ),
+//            inverseJoinColumns = @JoinColumn(
+//                    name = "acesso_id",
+//                    referencedColumnName = "id",
+//                    foreignKey = @ForeignKey(name = "acesso_fk")
+//            )
+//    )
+
     @OneToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "usuarios_acesso",
             uniqueConstraints = @UniqueConstraint(columnNames = {"usuario_id", "acesso_id"},
