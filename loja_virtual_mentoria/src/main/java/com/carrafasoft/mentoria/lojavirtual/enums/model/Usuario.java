@@ -1,4 +1,4 @@
-package com.carrafasoft.mentoria.lojavirtual.model;
+package com.carrafasoft.mentoria.lojavirtual.enums.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

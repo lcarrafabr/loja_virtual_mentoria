@@ -1,10 +1,9 @@
-package com.carrafasoft.mentoria.lojavirtual.model;
+package com.carrafasoft.mentoria.lojavirtual.enums.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Getter
 @Setter

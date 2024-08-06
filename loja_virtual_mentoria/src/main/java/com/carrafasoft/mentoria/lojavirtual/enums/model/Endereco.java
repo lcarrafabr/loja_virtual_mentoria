@@ -1,4 +1,4 @@
-package com.carrafasoft.mentoria.lojavirtual.model;
+package com.carrafasoft.mentoria.lojavirtual.enums.model;
 
 import com.carrafasoft.mentoria.lojavirtual.enums.TipoEndereco;
 import lombok.EqualsAndHashCode;
